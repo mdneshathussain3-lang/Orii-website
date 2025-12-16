@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ORII – Voice Community App</title>
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0e0e11;
+  color:#fff;
+}
+header{
+  padding:60px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#6a5cff,#9b5cff);
+}
+header h1{
+  font-size:48px;
+  margin-bottom:10px;
+}
+header p{
+  font-size:18px;
+  opacity:0.9;
+}
+.btn{
+  display:inline-block;
+  margin-top:25px;
+  padding:14px 28px;
+  background:#fff;
+  color:#000;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:bold;
+}
+section{
+  padding:60px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+.card{
+  background:#1a1a20;
+  padding:25px;
+  border-radius:16px;
+}
+.card h3{
+  margin-bottom:10px;
+}
+.how{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+footer{
+  padding:30px;
+  text-align:center;
+  background:#111;
+  font-size:14px;
+  opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>ORII</h1>
+  <p>Where Voices Connect, Communities Grow</p>
+  <a class="btn" href="#">Coming Soon on Play Store</a>
+</header>
+
+<section>
+  <h2>Why ORII?</h2>
+  <div class="features">
+    <div class="card">
+      <h3>🎙️ Voice Rooms</h3>
+      <p>High-quality real-time group voice chat experience.</p>
+    </div>
+    <div class="card">
+      <h3>👨‍👩‍👧 Community</h3>
+      <p>Create families, connect and grow together.</p>
+    </div>
+    <div class="card">
+      <h3>💰 Earn & Engage</h3>
+      <p>Gifts, coins and rewarding engagement system.</p>
+    </div>
+    <div class="card">
+      <h3>🛡️ Safe & Verified</h3>
+      <p>Verified hosts and secure environment.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>How ORII Works</h2>
+  <div class="how">
+    <div class="card">1️⃣ Download ORII App</div>
+    <div class="card">2️⃣ Create Your Profile</div>
+    <div class="card">3️⃣ Join Voice Rooms</div>
+    <div class="card">4️⃣ Connect, Talk & Earn</div>
+  </div>
+</section>
+
+<footer>
+  © 2025 ORII. All Rights Reserved <br>
+  Privacy Policy | Terms & Conditions
+</footer>
+
+</body>
+</html>
